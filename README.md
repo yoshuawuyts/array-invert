@@ -3,7 +3,8 @@
 [![build status][travis-image]][travis-url]
 [![Test coverage][coveralls-image]][coveralls-url]
 
-Invert a JavaScript array.
+Invert a JavaScript array. Though you probably want to use
+[array.reverse()][arr-rev] instead.
 
 ## Installation
 ```bash
@@ -35,3 +36,5 @@ invert(['chicken', 'cow', 'pig']);
 [travis-url]: https://travis-ci.org/yoshuawuyts/array-invert
 [coveralls-image]: https://img.shields.io/coveralls/yoshuawuyts/array-invert.svg?style=flat-square
 [coveralls-url]: https://coveralls.io/r/yoshuawuyts/array-invert?branch=master
+
+[arr-rev]: https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse
